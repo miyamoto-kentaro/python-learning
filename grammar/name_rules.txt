@@ -1,0 +1,15 @@
+class:
+class FirstNextEnd():
+
+function:
+def first_next_end():
+
+variable:
+first_next_end = ___
+
+growval_variable:
+FIRST_NEXT_END = ___
+
+file&dir:
+first_next_end.ex
+first_next_end
