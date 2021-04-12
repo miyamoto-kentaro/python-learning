@@ -5,8 +5,12 @@ you put file on stage
 # git add <dir_name>
 $ git add .
 
+save github name email
+git config --global user.email "your@email"
+git config --global user.name "user name"
+
 save file changes
-$ git clone -m <your_message>
+$ git commit -m <your_message>
 
 save git remote repo
 $ git remote add origin <remote_repo_url>
