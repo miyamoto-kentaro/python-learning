@@ -1,4 +1,3 @@
-# we use property at variables is read only
 class Car(object):
     def __init__(self, model=None):
         self.model = model
@@ -18,10 +17,12 @@ class TeslaCar(Car):
         self.__enable_auto_run = enable_auto_run
         self.passwd = passwd
 
+    # we use property if variables become read only
     @property
     def enable_auto_run(self):
         return self.__enable_auto_run
     
+    # we use setter if variables seted any
     @enable_auto_run.setter
     def enable_auto_run(self, is_enable):
         if self.passwd == '456':
